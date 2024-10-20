@@ -28,7 +28,11 @@ The following Python packages are required:
 - `matplotlib`: For visualizing weather data trends.
 
 To install these dependencies, run:
-```bash
+```cmd
 pip install requests matplotlib
+
+**For run app**
+python wapp.py
+
 
  
