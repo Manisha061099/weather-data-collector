@@ -9,10 +9,26 @@ This project collects weather data for multiple cities in India using the OpenWe
 - Computes daily summaries including average temperature, humidity, and wind speed.
 - Sends alerts if the temperature exceeds a predefined threshold for two consecutive updates.
 - Visualizes daily weather trends using Matplotlib.
+- 
+# Build Instructions
 
-**3. Requirements**
+## Prerequisites
+
+Before running the application, ensure you have the following installed:
+
 - Python 3.x
-- `requests` library
-- `matplotlib` library
+- Docker (optional, for containerization)
+- A database of your choice (e.g., SQLite, PostgreSQL) for persistent storage.
+
+### Dependencies
+
+The following Python packages are required:
+
+- `requests`: For making API calls to the OpenWeatherMap service.
+- `matplotlib`: For visualizing weather data trends.
+
+To install these dependencies, run:
+```bash
+pip install requests matplotlib
 
  
